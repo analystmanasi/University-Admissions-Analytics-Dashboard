@@ -1,179 +1,231 @@
-# University-Admissions-Analytics-Dashboard
-An interactive Power BI dashboard built to analyze university admissions data using SQL and Power BI. It provides insights into application trends, admission rates, fee collection, scholarships, counselor performance, and lead sources through interactive KPIs and visualizations, supporting data-driven decision-making.
+# 🎓 University Admissions Analytics Dashboard
 
-🎓 University Admissions Analytics Dashboard
 An interactive Power BI dashboard designed to analyze university admissions data, enrollment trends, financial performance, and counselor productivity through dynamic reports and insightful visualizations.
 
-📌 Short Description / Purpose
+---
 
-The University Admissions Analytics Dashboard is a business intelligence project built using Power BI and SQL to explore the complete admissions process across multiple academic years.
+# 📌 Short Description / Purpose
 
-The dashboard helps stakeholders monitor application trends, admission rates, fee collection, outstanding balances, scholarships, counselor performance, and lead source effectiveness through interactive KPIs and visualizations.
+The University Admissions Analytics Dashboard is a business intelligence project built using Power BI and SQL to analyze the complete admissions process across multiple academic years.
 
-🛠️ Tech Stack
+The dashboard enables universities to monitor application trends, admission rates, fee collection, outstanding balances, scholarships, counselor performance, and lead source effectiveness through interactive KPIs and visualizations, helping stakeholders make informed, data-driven decisions.
+
+---
+
+# 🛠️ Tech Stack
 
 The dashboard was built using the following tools and technologies:
 
-📊 Power BI Desktop – Main platform used to build interactive dashboards and reports.
-🗄️ SQL – Used for data extraction, querying, aggregation, and trend analysis.
-📂 Power Query – Used for data cleaning, transformation, and preprocessing.
-🧠 DAX (Data Analysis Expressions) – Used to create calculated measures and KPIs.
-🔗 Data Modeling – Built relationships between tables for accurate filtering and analysis.
-📈 Data Visualization – KPI cards, charts, maps, tables, and interactive slicers for business storytelling.
-📁 File Format – .pbix/.pbit for Power BI development and .png for dashboard previews.
-📂 Data Source
+- 📊 **Power BI Desktop** – Main platform used to build interactive dashboards and reports.
+- 🗄️ **SQL** – Used for data extraction, querying, joins, aggregations, and trend analysis.
+- 📂 **Power Query** – Used for data cleaning, transformation, and preprocessing.
+- 🧠 **DAX (Data Analysis Expressions)** – Used to create calculated measures, KPIs, and business metrics.
+- 🔗 **Data Modeling** – Designed relationships between fact and dimension tables for accurate analysis.
+- 📈 **Data Visualization** – KPI Cards, Charts, Maps, Tables, and Interactive Slicers for business storytelling.
+- 📁 **File Format** – `.pbix/.pbit` for Power BI development and `.png` for dashboard previews.
 
-The dataset used for this project is a simulated university admissions dataset created for learning and portfolio purposes.
+---
 
-The data includes:
+# 📂 Data Source
 
-Student applications
-Admission status
-Course and department details
-Fee collection
-Outstanding balances
-Scholarship information
-Lead sources
-Counselor performance
-Geographic locations
-Intake sessions
+The dataset used in this project is a simulated university admissions dataset created for learning and portfolio purposes.
 
-The dataset was designed to simulate a real-world university admissions management system for practicing business intelligence and analytics.
+The dataset includes:
 
-✨ Features / Highlights
-📌 Business Problem
+- Student Applications
+- Admission Status
+- Course & Department Details
+- Fee Collection
+- Outstanding Balance
+- Scholarship Information
+- Counselor Details
+- Lead Sources
+- Geographic Information
+- Intake Sessions
 
-Universities handle thousands of applications every admission cycle, making it difficult to monitor admissions, financial performance, and marketing effectiveness through raw data alone.
+The data was designed to closely simulate a real-world university admissions management system for practicing business intelligence and analytics.
 
-Without interactive reporting, identifying high-demand courses, monitoring fee collection, evaluating counselor performance, and measuring lead source effectiveness becomes time-consuming and inefficient.
+---
 
-🎯 Goal of the Dashboard
+# ✨ Features / Highlights
 
-The main goal of this dashboard is to:
+## 📌 Business Problem
 
-Transform admissions data into meaningful business insights.
-Monitor key admission and financial KPIs.
-Analyze application trends across years and intake sessions.
-Evaluate counselor performance and lead source effectiveness.
-Support data-driven decision-making through interactive reporting.
-📊 Walkthrough of Key Visuals
-🔹 KPI Cards
+Universities receive thousands of applications every admission cycle, making it difficult to monitor admissions, financial performance, and recruitment effectiveness using raw data alone.
 
-Displays important business metrics such as:
+Important business questions such as:
 
-Total Applications
-Total Admitted Students
-Admission Rate
-Rejection Rate
-Total Fee Collected
-Outstanding Balance
+- Which courses receive the highest number of applications?
+- What is the current admission rate?
+- How much fee has been collected?
+- How much revenue is still outstanding?
+- Which lead sources generate the highest admissions?
+- Which counselors achieve the best conversion rates?
+- How are scholarships distributed?
 
-These KPIs provide an overall snapshot of admission and financial performance.
+are difficult to answer quickly without an interactive reporting solution.
 
-🔹 Application Trend Analysis
+---
+
+## 🎯 Goal of the Dashboard
+
+The primary objective of this dashboard is to:
+
+- Transform raw admissions data into meaningful business insights.
+- Monitor admission and financial KPIs in one place.
+- Analyze admission trends across multiple years.
+- Evaluate counselor performance and conversion rates.
+- Measure marketing channel effectiveness.
+- Support strategic and data-driven decision-making.
+
+---
+
+# 📊 Walkthrough of Key Visuals
+
+## 🔹 KPI Cards
+
+Displays important admission and financial metrics including:
+
+- Total Applications
+- Total Admitted Students
+- Admission Rate
+- Rejection Rate
+- Total Fee Collected
+- Total Outstanding Balance
+
+These KPIs provide an instant overview of university performance.
+
+---
+
+## 🔹 Applications by Year
 
 Line and column charts visualize:
 
-Applications by Year
-Admission Trends
-Growth in Student Applications
+- Year-wise application trends
+- Growth in student applications
+- Admission performance over multiple academic years
 
-Helps identify changes in enrollment demand over time.
+Helps identify enrollment trends and admission growth.
 
-🔹 Payment Status Analysis
+---
 
-Visualizes students based on:
+## 🔹 Payment Status Analysis
 
-Fully Paid
-Partially Paid
-Not Paid
+Displays students categorized as:
 
-Useful for monitoring fee collection and outstanding payments.
+- Fully Paid
+- Partially Paid
+- Not Paid
 
-🔹 Lead Source Analysis
+Useful for monitoring fee collection and pending payments.
 
-Compares applications generated through:
+---
 
-Website
-Google Ads
-Instagram
-Facebook
-Student Referrals
-Alumni Referrals
-Education Fairs
-Walk-ins
-Consultancy
+## 🔹 Lead Source Analysis
 
-Helps evaluate the effectiveness of different recruitment channels.
+Analyzes student applications received through:
 
-🔹 Geographic Analysis
+- Website
+- Google Ads
+- Instagram
+- Facebook
+- Student Referrals
+- Alumni Referrals
+- Education Fairs
+- Walk-ins
+- Consultancy
 
-Interactive map displaying applications across different states and cities.
+Helps identify the most effective recruitment channels.
 
-Useful for understanding regional student distribution and planning recruitment strategies.
+---
 
-🔹 Course & Admission Analysis
+## 🔹 Geographic Analysis
+
+Interactive map displaying applications received from different states and cities.
+
+Useful for understanding regional demand and planning future recruitment strategies.
+
+---
+
+## 🔹 Course Demand vs Admission Rate
 
 Compares:
 
-Course-wise Applications
-Admission Rate
-Course Demand
+- Total Applications
+- Admission Rate
 
-Helps identify the most popular academic programs.
+across different courses to identify the most popular academic programs.
 
-🔹 Scholarship & Revenue Analysis
+---
 
-Visuals showing:
+## 🔹 Revenue & Scholarship Analysis
 
-Total Scholarship Amount
-Scholarship Distribution
-Department-wise Fee Collection
-Outstanding Balances
+Visuals displaying:
 
-Helps monitor financial performance and scholarship allocation.
+- Department-wise Fee Collection
+- Outstanding Balance
+- Total Scholarship Amount
+- Scholarship Distribution by Type
+- Average Fee per Admission
 
-🔹 Counselor Performance Dashboard
+Provides insights into the university's financial performance.
 
-Measures counselor effectiveness using:
+---
 
-Total Applications
-Total Admissions
-Admission Rate
+## 🔹 Counselor Performance Dashboard
 
-Useful for evaluating counselor productivity and conversion performance.
+Measures counselor productivity using:
 
-🔹 Interactive Filters & Slicers
+- Total Applications
+- Total Admissions
+- Admission Rate
 
-Users can dynamically filter the dashboard using:
+Helps evaluate individual counselor performance and conversion efficiency.
 
-Year
-Intake Session
-Course Level
-Department
-State
-City
+---
 
-Improves dashboard interactivity and user experience.
+## 🔹 Interactive Filters & Slicers
 
-📈 Business Impact & Insights
-📊 Helps universities monitor admissions and financial performance.
-🎯 Identifies high-performing recruitment channels.
-💰 Tracks fee collection, outstanding balances, and scholarship distribution.
-📍 Supports strategic planning through geographic and course demand analysis.
-📈 Enables data-driven decision-making using interactive dashboards.
-🚀 Demonstrates practical use of SQL and Power BI for educational analytics.
-🌱 What I Learned
+Users can dynamically analyze the dashboard using filters for:
 
-Through this project, I improved my skills in:
+- Year
+- Intake Session
+- Course Level
+- Department
+- State
+- City
 
-SQL data extraction and analysis
-Power BI dashboard development
-Power Query transformations
-Data modeling
-DAX measure creation
-KPI reporting
-Interactive dashboard design
-Data storytelling and business analytics
-📸 Dashboard Preview
+Improves user experience and enables detailed business analysis.
+
+---
+
+# 📈 Business Impact & Insights
+
+- 🎓 Provides a centralized view of the university admissions process.
+- 📊 Helps monitor admission and financial KPIs in real time.
+- 💰 Tracks fee collection, outstanding balances, and scholarship allocation.
+- 📍 Identifies the most effective student acquisition channels.
+- 📚 Highlights high-demand courses and enrollment trends.
+- 🤝 Evaluates counselor productivity and admission conversion rates.
+- 🚀 Demonstrates how SQL and Power BI can support data-driven decision-making in higher education.
+
+---
+
+# 🌱 What I Learned
+
+Through this project, I strengthened my skills in:
+
+- SQL Querying and Data Analysis
+- Power BI Dashboard Development
+- Data Cleaning using Power Query
+- Data Modeling
+- DAX Measures and KPI Development
+- Interactive Dashboard Design
+- Business Intelligence Reporting
+- Data Visualization
+- Analytical Thinking and Storytelling
+
+---
+
+# 📸 Dashboard Preview
 ![University Admissions Dashboard](https://github.com/analystmanasi/University-Admissions-Analytics-Dashboard/blob/main/University%20Admission%20Analytics%20Dashboard.png)
