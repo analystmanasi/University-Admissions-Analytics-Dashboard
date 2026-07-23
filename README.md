@@ -176,4 +176,4 @@ KPI reporting
 Interactive dashboard design
 Data storytelling and business analytics
 📸 Dashboard Preview
-![University Admissions Dashboard](University Admission Analytics Dashboard.png)
+![University Admissions Dashboard]([University Admission Analytics Dashboard.png](https://github.com/analystmanasi/University-Admissions-Analytics-Dashboard/blob/main/University%20Admission%20Analytics%20Dashboard.png))
